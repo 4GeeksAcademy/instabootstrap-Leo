@@ -9,39 +9,98 @@
 </head>
 <body>
 
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
+        <div class="container-fluid d-flex align-items-center">
+
             <i class="fa-brands fa-instagram"></i>
-          <a class="navbar-brand" href="#">Instagram</a>
-          <!-- Button trigger modal -->
-<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Create a new post
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <a class="navbar-brand ms-2" href="#">Instagram</a>
+
+            <div class="ms-auto">
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Create a new post
+                </button>
+            </div>
+
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-gear"></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Accessibility</a></li>
+                    <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="text-danger" href="#">Log out</a></li>
+                </ul>
+            </li>
         </div>
-        <div class="modal-body">
-          <strong>Caption:</strong>
-<textarea class="form-control" id="caption" aria-label="With textarea">Add the caption of your post here</textarea>
-<i class="fa-solid fa-camera"></i>  <i class="fa-solid fa-location-dot"></i>
-</div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-success">Save changes</button>
-        </div>
-      </div>
+    </nav>
+
+    
+    <div class="d-flex justify-content-center my-4">
+        <i class="fa-solid fa-table-cells"></i>
+  <a href="second.html"><i class="fa-solid fa-square"></i></a>
     </div>
-  </div>
 
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 col-md-4">
+                <img src="https://a.storyblok.com/f/178900/1064x1505/bdeeb64fb0/mf-ghost-season-2.png/m/filters:quality(95)format(webp)" class="img-fluid w-100" alt="Image 1" />
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="https://m.imageimg.net/upload/artist_img/MFGST-OFCL-0001/5fcac0baa5a521d8bd66f00076bd0a8d049a93cd_653baa98e829a.jpg" class="img-fluid w-100" alt="Image 2" />
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="https://i0.wp.com/anitrendz.net/news/wp-content/uploads/2024/09/mf-ghost-season-2-new-visual-e1725724430317.jpg?resize=696%2C393&ssl=1" class="img-fluid w-100" alt="Image 3" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-md-4">
+                <img src="https://media.vandal.net/i/1280x720/10-2023/20/2023102020414823_11.jpg" class="img-fluid w-100" alt="Image 4" />
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="https://assets.dyler.com/uploads/posts/599/images/10790/initial-d-toyota-ae86.jpg" class="img-fluid w-100" alt="Image 5" />
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2023/10/initial-d-3204172.jpg?tf=3840x" class="img-fluid w-100" alt="Image 6" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV8gYX3gdVTyo2nytz_EJ8HKJECjh8LrB1Cw&s" class="img-fluid w-100" alt="Image 7" />
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="https://static.wikia.nocookie.net/initiald/images/b/b6/Keisuke_FD3S_Fifth_Stage_Upgraded.png/revision/latest/scale-to-width-down/250?cb=20200612225657" class="img-fluid w-100" alt="Image 8" />
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTBiOTg3NjYtMGNkOS00ODUwLWFlZjgtZGZjMDkyZDYxMjNhXkEyXkFqcGc@._V1_.jpg" class="img-fluid w-100" alt="Image 9" />
+            </div>
+        </div>
+    </div>
 
-
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <strong>Caption:</strong>
+                    <textarea class="form-control" id="caption" aria-label="With textarea">Add the caption of your post here</textarea>
+                    <i class="fa-solid fa-camera"></i>  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>  
