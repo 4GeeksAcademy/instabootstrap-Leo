@@ -12,30 +12,38 @@
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid d-flex align-items-center">
             <i class="fa-brands fa-instagram"></i>
-            <a class="navbar-brand" href="#">Instagram</a>
+            <a class="navbar-brand ms-2" href="#">Instagram</a>
             <div class="ms-auto">
                 <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Create a new post
                 </button>
             </div>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fa-solid fa-gear"></i>
-                </a>
-                <ul class="dropdown-menu">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-gear"></i>
+                    </button>
+                <ul class="dropdown-menu dropdown-menu-end">
                     <li><a class="dropdown-item" href="#">Profile</a></li>
                     <li><a class="dropdown-item" href="#">Accessibility</a></li>
                     <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="text-danger" href="#">Log out</a></li>
+                    <li><a class="text-danger dropdown-item" href="#">Log out</a></li>
                 </ul>
-            </li>
+                </div>
         </div>
     </nav>
 
-    <div class="d-flex justify-content-center mb-3">
-        <a href="index.html"> <i class="fa-solid fa-table-cells"></i></a>
-        <i class="fa-solid fa-square"></i>
+  
+    <div class="d-flex justify-content-center">
+        <a href="index.html">
+            <button class="btn btn-outline-primary"><i class="fa-solid fa-table-cells"></i></button>
+        </a>
+        
+        <a href="second.html">
+            <button class="btn btn-outline-primary">
+                <i class="fa-solid fa-square"></i>
+            </button>
+        </a>
     </div>
 
     <div class="container d-flex flex-column align-items-center">
